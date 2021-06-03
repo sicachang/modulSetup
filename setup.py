@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-      name="sicahaha",
-      version="0.10",
+      name="mytest",
+      version="0.30",
       description="My test module",
-      author="sicachang",
-      url="http://google.com",
-      license="III",
+      author="Sica Chang",
+      url="http://www.csdn.net",
+      license="LGPL",
       packages= find_packages(),
-      scripts=["cckk.py"],
+      scripts=["scripts/test.py"],
       )

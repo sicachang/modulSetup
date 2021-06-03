@@ -1,4 +1,8 @@
 import sys
+from ObjStation import ObjStation
 
-def get():
-    return sys.path
+class mytest(ObjStation):
+    x=5
+    
+    def get(self):
+        return 19
